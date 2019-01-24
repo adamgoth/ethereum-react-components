@@ -5,6 +5,8 @@ import { Button } from '../..'
 import i18n from '../../../i18n'
 
 export default class SubmitTxForm extends Component {
+  static displayName = 'SubmitTxForm'
+
   static propTypes = {
     handleSubmit: PropTypes.func.isRequired,
     unlocking: PropTypes.bool,

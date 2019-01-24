@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Input, Identicon, utils } from '../..'
-import Cross from '../AnimatedIcons/AnimatedCross'
+import Cross from '../AnimatedIcons/Cross'
 
 export default class AddressInput extends Component {
   static displayName = 'AddressInput'
